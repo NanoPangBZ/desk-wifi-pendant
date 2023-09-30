@@ -7904,7 +7904,7 @@
 	"../lv_conf_internal.h"
 	<stdint.h>
 
-1694877372 d:\underwayproject\esp32_display_screen\code\simulator_win_codeblocks\lvgl\src\lv_conf_internal.h
+1695566053 d:\underwayproject\esp32_display_screen\code\simulator_win_codeblocks\lvgl\src\lv_conf_internal.h
 	<stdint.h>
 	"lv_conf_kconfig.h"
 	"lv_conf.h"
@@ -9936,11 +9936,31 @@
 	"../misc/lv_txt.h"
 	"../misc/lv_math.h"
 
-1694865124 source:d:\underwayproject\esp32_display_screen\code\simulator_win_codeblocks\main.c
+1695568056 source:d:\underwayproject\esp32_display_screen\code\simulator_win_codeblocks\main.c
 	<stdlib.h>
 	<unistd.h>
+	<windows.h>
+	"lv_drivers/win32drv/win32drv.h"
+	"gui_thread.h"
+
+1695480941 d:\underwayproject\esp32_display_screen\code\simulator_win_codeblocks\ui_thread.h
+	<windows.h>
+
+1695481592 source:d:\underwayproject\esp32_display_screen\code\simulator_win_codeblocks\ui_thread.c
+	"ui_thread.h"
 	"lvgl/lvgl.h"
 	"lv_demos/src/lv_demo_widgets/lv_demo_widgets.h"
 	"lv_drivers/win32drv/win32drv.h"
+	<pthread.h>
+
+1695481792 d:\underwayproject\esp32_display_screen\code\simulator_win_codeblocks\gui_thread.h
 	<windows.h>
+
+1695566930 source:d:\underwayproject\esp32_display_screen\code\simulator_win_codeblocks\gui_thread.c
+	"gui_thread.h"
+	"lvgl/lvgl.h"
+	"lv_demos/src/lv_demo_widgets/lv_demo_widgets.h"
+	"lv_drivers/win32drv/win32drv.h"
+	"stdbool.h"
+	<pthread.h>
 
